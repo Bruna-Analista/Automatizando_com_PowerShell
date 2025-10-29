@@ -1,4 +1,4 @@
-# ⚙️ Automação de Planilhas Excel com PowerShell
+# ⚙️ Automação de Planilhas Excel com PowerShell 
 
 Scripts práticos de automação desenvolvidos em **PowerShell** para otimizar tarefas do dia a dia em **análise de dados** e **controle de planilhas corporativas**.
 
