@@ -69,7 +69,7 @@ Este repositório contém um script PowerShell simples e eficiente que renomeia 
 Navegue até a pasta onde estão suas planilhas:
 → importante colocar o cd e aspas antes de inserir o caminho
 
-**cd "C:\caminho\da\pasta"*
+cd "C:\caminho\da\pasta"*
 
 Dê enter.
 
