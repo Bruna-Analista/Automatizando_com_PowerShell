@@ -1,6 +1,6 @@
 # ⚙️ Automação de Planilhas Excel com PowerShell 
 
-Scripts práticos de automação desenvolvidos em **PowerShell** para otimizar tarefas do dia a dia em **análise de dados** e **controle de planilhas corporativas**.
+Scripts práticos de automação desenvolvidos em **PowerShell**  para otimizar tarefas do dia a dia em **análise de dados** e **controle de planilhas corporativas**.
 
 ### 🧹 1. Excluir as 3 primeiras linhas de várias planilhas
 Remove automaticamente as três primeiras linhas de todos os arquivos `.xlsx` em uma pasta — sem abrir o Excel.
