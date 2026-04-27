@@ -105,10 +105,10 @@ Copy-Item "C:\Users\bruna.zordenoni\Desktop\Bruna\Projects DEV Bruna\POWER BI\De
 Copy-Item "C:\Users\bruna.zordenoni\Desktop\Bruna\Projects DEV Bruna\POWER BI\Desafio Junior\Portfolio Alelo - prestacao de contas\2026\*.xlsx" "S:\BI\Custos\Alelo - prestacao de contas\2025"
 ```
 
-## ✅ Para muitos arquivos, mais seguro (melhor opção): Robocopy
+## ✅ Se quiser MOVER (tirar da origem e colocar no destino)
 
 ```powershell
-robocopy "C:\Users\bruna.zordenoni\Desktop\Bruna\Projects DEV Bruna\POWER BI\Desafio Junior\Portfolio Alelo - prestacao de contas\2026" "S:\BI\Custos\Alelo - prestacao de contas\2025" /E
+Move-Item "C:\Origem\*.xlsx" "D:\Destino\"
 ```
 
 
