@@ -85,4 +85,30 @@ Get-ChildItem -Filter *.xlsx | ForEach-Object {
     $extensao = $_.Extension
     $novoNome = $nomeOriginal + "_fev2026" + $extensao
     Rename-Item -Path $_.FullName -NewName $novoNome
-}
+} 
+```
+---
+## ✏️✅ Comando para COPIAR arquivos
+
+```powershell
+Copy-Item "C:\Users\bruna.zordenoni\Desktop\Bruna\Projects DEV Bruna\POWER BI\Desafio Junior\Portfolio Alelo - prestacao de contas\2026\*" "S:\BI\Custos\Alelo - prestacao de contas\2025" -Recurse
+```
+*O que faz:*
+
+- Copy-Item = copiar
+- \* = todos os arquivos da pasta
+- -Recurse = inclui subpastas também
+
+---
+## ✅ Se quiser copiar apenas arquivos Excel
+```powershell
+Copy-Item "C:\Users\bruna.zordenoni\Desktop\Bruna\Projects DEV Bruna\POWER BI\Desafio Junior\Portfolio Alelo - prestacao de contas\2026\*.xlsx" "S:\BI\Custos\Alelo - prestacao de contas\2025"
+```
+
+## ✅ Para muitos arquivos, mais seguro (melhor opção): Robocopy
+
+```powershell
+robocopy "C:\Users\bruna.zordenoni\Desktop\Bruna\Projects DEV Bruna\POWER BI\Desafio Junior\Portfolio Alelo - prestacao de contas\2026" "S:\BI\Custos\Alelo - prestacao de contas\2025" /E
+```
+
+
