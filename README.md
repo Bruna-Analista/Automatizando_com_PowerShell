@@ -83,7 +83,7 @@ Dê enter.
 Get-ChildItem -Filter *.xlsx | ForEach-Object {
     $nomeOriginal = $_.BaseName
     $extensao = $_.Extension
-    $novoNome = $nomeOriginal + "_fev2026" + $extensao
+    $novoNome = $nomeOriginal + "_abr2026" + $extensao
     Rename-Item -Path $_.FullName -NewName $novoNome
 } 
 ```
